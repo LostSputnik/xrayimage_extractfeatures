@@ -25,7 +25,7 @@ from skimage.filters import threshold_otsu
 from skimage.morphology import closing, square
 from skimage.color import label2rgb
 from scipy import ndimage as ndi
-from skimage.morphology import watershed
+from skimage.segmentation import watershed
 from skimage.feature import peak_local_max
 from skimage.measure import shannon_entropy
 from skimage import io, color, img_as_ubyte
